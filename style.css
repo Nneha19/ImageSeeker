@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins:wght@300;400&family=Roboto&family=Ubuntu&family=Volkhov&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#content{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    min-height: 100vh;
+}
+#nav{
+    padding: 40px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+    @media screen and (max-width:425px) {
+        padding-top: 20%;
+    }
+}
+
+
+img{
+    height: 60px;
+    @media screen and (max-width:425px) {
+        padding-bottom: 20px;   
+    }
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    border: none;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    @media screen and (max-width:425px) {
+        width: 60%;
+    }
+}
+.search button{
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    background-color: #3a49b9;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    min-height: 40px;
+}
+.img-item{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-content,a{
+    height: 60vh;
+    display: flex;
+ align-items: center;
+ @media screen  and (max-width:425px){
+    height: 30vh;
+    
+ }
+}
