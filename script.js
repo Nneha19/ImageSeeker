@@ -11,9 +11,7 @@ submit.addEventListener('click',(e)=>{
 })
 
 function fetchImages(query) {
-const Access_key='EpsPVvBa3cnZDWKE6PSnoJ-MlI3YkrvBN9bzQDPPOhk';
-//const Access_key='9qgobCo_7HVX-9ncV2TOKZo4Sz1KcgdnugkTnmr0vuI';
-//const Access_key='YyEfpootJQnkCNZc2qH-bw8jTQlzIu5JOiOZiou7LKg';
+const Access_key='';
 const apiUrl = `https://api.unsplash.com/search/photos?page=${page}&query=${query}&client_id=${Access_key}`;
 
   try {
